@@ -1,9 +1,15 @@
+body{
+    background-image: url('https://c8.alamy.com/comp/W20AEP/food-background-with-traditional-ingredients-for-mediterranean-cuisine-over-white-background-top-view-with-copy-space-italian-food-W20AEP.jpg');
+    display: flex;
+    flex-direction: column;
+}
 h1{
     color:blue;
 }
 
 img{
     width: 400px;
+
 }
 
 #thirdDiv{
@@ -12,9 +18,19 @@ img{
     background-color: yellow;
     padding: 50px;
     border: 2px solid red;
+    text-align: right;
+    margin: 10px auto;
 }
 
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
 }
